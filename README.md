@@ -21,4 +21,4 @@ To run the unlocker, change into the Genshin Impact directory and run the `Gensh
 
 The unlocker will create a log file for the launcher in `launcher.log` and a log file for the game in `game.log`.
 
-There is no configuration file as of now, if you wish to change the command line arguments, check out `src/launcher.cpp:L38`. If you want to change the fps limit, edit `src/dll.cpp:L86`. Make sure to recompile the project.
+There is no configuration file as of now, if you wish to change the command line arguments, check out `src/launcher.cpp:L38`. If you want to change the fps limit, edit `src/dll.cpp:L85`. Make sure to recompile the project.
