@@ -19,5 +19,3 @@ link_libraries(user32 dbghelp ntdll)
 
 add_library(genshin-impact-unlocker SHARED src/dll.cpp)
 add_executable(genshin-impact-launcher src/launcher.cpp)
-
-target_link_options(genshin-impact-launcher PRIVATE -Wl,--subsystem,windows)
