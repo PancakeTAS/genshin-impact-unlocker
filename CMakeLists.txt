@@ -18,4 +18,4 @@ add_link_options(-static-libgcc -static-libstdc++)
 link_libraries(user32 dbghelp ntdll)
 
 add_library(genshin-impact-unlocker SHARED src/dll.cpp)
-add_executable(genshin-impact-launcher src/launcher.cpp)
+add_executable(genshin-impact-launcher WIN32 src/launcher.cpp)
