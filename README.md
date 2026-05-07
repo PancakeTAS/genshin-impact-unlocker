@@ -10,6 +10,7 @@ $ cmake -B build -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=cmak
 $ cmake --build build
 $ cp -v build/genshin-impact-launcher.exe "(Genshin Impact)/GenshinImpactUnlocker.exe"
 $ cp -v build/libgenshin-impact-unlocker.dll "(Genshin Impact)/GenshinImpactUnlocker.dll"
+$ cp -v /usr/x86_64-w64-mingw32/bin/libwinpthread-1.dll "(Genshin Impact)/libwinpthread-1.dll"
 ```
 
 Make sure to replace `(Genshin Impact)` with the actual path to your Genshin Impact installation (the same folder in which GenshinImpact.exe is!)
