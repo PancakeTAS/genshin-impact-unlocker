@@ -79,7 +79,6 @@ DWORD __stdcall ThreadProc(LPVOID lpParameter)
 
     std::wcerr << "Successfully found fps cap at address: "
         << static_cast<void*>(framerate) << '\n';
-    std::wcerr << "Original fps cap: " << *framerate << '\n';
 
     // Uncap framerate periodically
     while (true) {
