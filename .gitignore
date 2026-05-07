@@ -1,0 +1,10 @@
+# CMake
+/build
+
+# IDEs
+/.zed
+/.vscode
+
+# clangd
+/.clangd
+/.cache

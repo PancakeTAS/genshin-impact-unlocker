@@ -1,0 +1,3 @@
+*.c diff=c eol=lf
+*.h diff=c eol=lf
+*.md diff=markdown eol=lf
